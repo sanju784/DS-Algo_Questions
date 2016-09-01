@@ -179,6 +179,7 @@
    54. Find number that appears more than n/2 times in array
    59. Find element that appear maximum number of times in array
    60. Find number appear only once in an array
+   61. Throwing Egg from n-storey building
 
  
 17. Dynamic Programming

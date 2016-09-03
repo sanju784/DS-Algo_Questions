@@ -181,6 +181,7 @@
    60. Find number appear only once in an array
    61. Throwing Egg from n-storey building
    62. Find Local minimum in an array
+   63. Find number in 2D array
 
  
 17. Dynamic Programming

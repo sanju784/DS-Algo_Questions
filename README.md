@@ -182,6 +182,7 @@
    61. Throwing Egg from n-storey building
    62. Find Local minimum in an array
    63. Find number in 2D array
+   65. Find row with maximum number of 0 in a matrix
 
  
 17. Dynamic Programming

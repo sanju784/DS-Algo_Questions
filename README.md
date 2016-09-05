@@ -183,6 +183,7 @@
    62. Find Local minimum in an array
    63. Find number in 2D array
    65. Find row with maximum number of 0 in a matrix
+   67. Seperate Odd and Even numbers in an array
 
  
 17. Dynamic Programming

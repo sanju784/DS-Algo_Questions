@@ -184,6 +184,7 @@
    63. Find number in 2D array
    65. Find row with maximum number of 0 in a matrix
    67. Seperate Odd and Even numbers in an array
+   68. Seperate 0's and 1's in an array
 
  
 17. Dynamic Programming

@@ -185,6 +185,7 @@
    65. Find row with maximum number of 0 in a matrix
    67. Seperate Odd and Even numbers in an array
    68. Seperate 0's and 1's in an array
+   70. Sort an array with 0's 1's and 2's
 
  
 17. Dynamic Programming

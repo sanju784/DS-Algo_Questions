@@ -187,6 +187,7 @@
    68. Seperate 0's and 1's in an array
    70. Sort an array with 0's 1's and 2's
    71. Find maximum difference between two elements in an array
+   73. Find number of trailing 0 in factorail n
 
  
 17. Dynamic Programming

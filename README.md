@@ -189,6 +189,7 @@
    71. Find maximum difference between two elements in an array
    73. Find number of trailing 0 in factorail n
    74. Shuffle array a1a2a3a4b1b2b3b4 to a1b1a2b2a3b3a4b4
+   76. Find j-i in an array where a[j] >a[i]
 
  
 17. Dynamic Programming

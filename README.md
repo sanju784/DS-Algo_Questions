@@ -195,6 +195,13 @@
 
 10. Selection
    1. Find Smallest and largest in an array
+   2. Find second largest in an array
+   3. Find k smallest element in an array
+   4. Find k'th smallest element
+   5. Find Median of 2 arrays containing n elements
+   6. Find k'th smallest element in Union of 2 array
+   7. Find k smallest elements in sorted order
+   8. Find k nearest neighbour to the median of n numbers
  
 17. Dynamic Programming
    1. Find T(n) = 2*T(n-1)*T(n-2)

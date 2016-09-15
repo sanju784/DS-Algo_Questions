@@ -193,6 +193,8 @@
    78. Check if an array is pair wise sorted
    79. Print frequency of elements in an array
 
+10. Selection
+   1. Find Smallest and largest in an array
  
 17. Dynamic Programming
    1. Find T(n) = 2*T(n-1)*T(n-2)

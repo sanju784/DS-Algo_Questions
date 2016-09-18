@@ -202,6 +202,17 @@
    6. Find k'th smallest element in Union of 2 array
    7. Find k smallest elements in sorted order
    8. Find k nearest neighbour to the median of n numbers
+
+11. Hashing
+   1. Remove Duplicates from array of character
+   2. Check if two array have same set of numbers
+   3. Search for Symetric Pairs
+   4. Find element with single occurance
+   5. Remove characters from a string which are present in other string
+   6. Find first non-repeated character in a string
+   7. Find first repeating character in a string 
+   8. In an array find pair of number whose sum is S
+
  
 17. Dynamic Programming
    1. Find T(n) = 2*T(n-1)*T(n-2)

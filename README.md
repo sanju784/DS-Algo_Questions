@@ -213,6 +213,11 @@
    7. Find first repeating character in a string 
    8. In an array find pair of number whose sum is S
 
+12. String
+   1. Find length of longest common substring in 2 string
+   2. check if input string can be broken and found in dictionary
+   3. Reverse a String
+
  
 17. Dynamic Programming
    1. Find T(n) = 2*T(n-1)*T(n-2)

@@ -156,6 +156,9 @@
    14. Nuts and Bolts Problem.
    15. Arrange an array in Saw Tooth Wave form.
 
+9. Seaching
+   1. Check for duplicates in array.
+
 
 
 

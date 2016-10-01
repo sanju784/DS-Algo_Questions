@@ -158,6 +158,7 @@
 
 9. Seaching
    1. Check for duplicates in array.
+   2. Find element that appear maximum number of times.
 
 
 

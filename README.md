@@ -161,6 +161,7 @@
    2. Find element that appear maximum number of times.
    3. Find first element that is repeated.
    4. Find missing number in an array.
+   5. Find number occuring odd number of times.
 
 
 

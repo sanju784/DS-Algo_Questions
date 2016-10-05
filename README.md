@@ -162,6 +162,7 @@
    3. Find first element that is repeated.
    4. Find missing number in an array.
    5. Find number occuring odd number of times.
+   6. Find two repeating elements in an array.
 
 
 

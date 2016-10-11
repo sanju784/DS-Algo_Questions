@@ -165,7 +165,8 @@
    6. Find two repeating elements in an array.
    7. Find element that are repeated twice
    8. Find two elements in an array such that there sum is k
-   9. Find two elements in an array whose sum is closest to 0
+   9. Find pythagorian triplet in array
+   10. Find two elements in an array whose sum is closest to 0
 
 
 

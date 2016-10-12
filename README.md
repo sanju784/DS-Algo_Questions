@@ -168,6 +168,7 @@
    9. Find pythagorian triplet in array
    10. Find two elements in an array whose sum is closest to 0
    11. Find 3 element from an array whose sum is equal to k
+   12. Find 3 element from an array whose sum is closest to 0
 
 
 

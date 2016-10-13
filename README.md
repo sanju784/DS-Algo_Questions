@@ -169,6 +169,7 @@
    10. Find two elements in an array whose sum is closest to 0
    11. Find 3 element from an array whose sum is equal to k
    12. Find 3 element from an array whose sum is closest to 0
+   13. Find index at which an increasing array become decreasing
 
 
 

@@ -170,6 +170,7 @@
    11. Find 3 element from an array whose sum is equal to k
    12. Find 3 element from an array whose sum is closest to 0
    13. Find index at which an increasing array become decreasing
+   14. Find element in a rotated array
 
 
 

@@ -120,6 +120,8 @@
    62. Find Union and Intersection of 2 BST
    65. Print all elements of a BST in the range n1 and n2
    68. Trim a tree so that all elements of it are in the range n1 and n2
+   69. Check if elements of 2 BST are same or not
+   72. Generate Full Balanced BST of height h
 
 
 99. Others

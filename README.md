@@ -122,6 +122,7 @@
    68. Trim a tree so that all elements of it are in the range n1 and n2
    69. Check if elements of 2 BST are same or not
    72. Generate Full Balanced BST of height h
+   76. Check if given BST is AVL
 
 
 99. Others

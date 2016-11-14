@@ -129,6 +129,7 @@
 
 6. Heap
    1. Find maximum element from a min-heap.
+   2. Delete i-th index element from a min-heap
 
 
 

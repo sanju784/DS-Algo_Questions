@@ -134,6 +134,7 @@
    4. Program to merge two binary max-heaps
    5. Find k-th smalledt element in a binary heap
    6. Find k-th max element from max heap
+   7. Implement stack using heap
 
 
 

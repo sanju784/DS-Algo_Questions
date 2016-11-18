@@ -136,6 +136,8 @@
    6. Find k-th max element from max heap
    7. Implement stack using heap
    8. Implement queue using heap
+   9. Merge k sorted array
+   10. Find largest n pair from 2 arrays
 
 
 

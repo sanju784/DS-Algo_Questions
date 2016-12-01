@@ -123,6 +123,7 @@
    69. Check if elements of 2 BST are same or not
    72. Generate Full Balanced BST of height h
    76. Check if given BST is AVL
+   77. Generate AVL tree of height h with minimum nodes
 
 
 99. Others

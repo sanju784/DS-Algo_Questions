@@ -124,6 +124,7 @@
    72. Generate Full Balanced BST of height h
    76. Check if given BST is AVL
    77. Generate AVL tree of height h with minimum nodes
+   78. Count numbers of nodes in the range (a,b) in BST
 
 
 99. Others

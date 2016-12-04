@@ -118,6 +118,7 @@
    60. Find k-th smallest element in BST
    61. Find Floor and Ceil of a number in a BST
    62. Find Union and Intersection of 2 BST
+   65. Print all elements of a BST in the range n1 and n2
 
 
 99. Others

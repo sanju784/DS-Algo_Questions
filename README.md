@@ -96,6 +96,7 @@
    25. Check if 1 tree is mirror of other
    26. Find Lowest Common Ancestor of 2 nodes
    27. Construct binary tree from inorder and preorder
+   29. Print all ancestors of a node
 
 
 99. Others

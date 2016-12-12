@@ -97,6 +97,7 @@
    26. Find Lowest Common Ancestor of 2 nodes
    27. Construct binary tree from inorder and preorder
    29. Print all ancestors of a node
+   30. Spiral traversal of a tree
 
 
 99. Others

@@ -113,6 +113,7 @@
    50. Check that a given tree is BST
    54. Convert a BST into Circular DLL
    56. Convert Sorted DLL to balanced BST
+   57. Create BST from sorted array
 
 
 99. Others

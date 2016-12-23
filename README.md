@@ -107,6 +107,7 @@
    40. Count number of siblings of a node in generic tree
    41. Count number of childers of a node in generic tree
    42. Check that trees are isomorphic to each other
+   43. Check that trees are quasi-isomorphic to each other
 
 
 99. Others

@@ -1,6 +1,6 @@
 /*********************************************
 *
-*  Count number of siblings in a generic tree
+*  Count number of siblings of a node in generic tree
 *
 */////////////////////////////////////////////
 

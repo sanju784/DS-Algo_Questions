@@ -1,3 +1,9 @@
+/*********************************************
+*
+*  sum of all elements in binary tree - recursion
+*
+*/////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 

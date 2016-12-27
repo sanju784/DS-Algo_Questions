@@ -114,6 +114,7 @@
    54. Convert a BST into Circular DLL
    56. Convert Sorted DLL to balanced BST
    57. Create BST from sorted array
+   58. Create BST from singly linked list
 
 
 99. Others

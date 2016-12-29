@@ -116,6 +116,7 @@
    57. Create BST from sorted array
    58. Create BST from singly linked list
    60. Find k-th smallest element in BST
+   61. Find Floor and Ceil of a number in a BST
 
 
 99. Others

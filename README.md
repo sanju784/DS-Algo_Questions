@@ -72,6 +72,7 @@
    1. Program to find Maximum in binary tree. (Recursion)
    2. Program to find Maximum in binary tree. (Iteration)
    3. Program to Search element in binary tree - recursion
+   4. Program to Search element in binary tree - Iteration
    18. Program to find diameter of a tree, i.e. number of nodes in a longest path.
    22. Program to find sum of all numbers in a tree using recursion.
 

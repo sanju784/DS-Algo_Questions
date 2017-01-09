@@ -77,6 +77,7 @@
    6. Program to Find size of binary tree - Recursion
    7. Program to Find size of binary tree - Iteration
    8. Level order traversal in reverse order.
+   9. Program to Delete a binary tree.
    18. Program to find diameter of a tree, i.e. number of nodes in a longest path.
    22. Program to find sum of all numbers in a tree using recursion.
 

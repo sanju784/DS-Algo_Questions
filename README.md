@@ -82,6 +82,7 @@
    11. Find Height of Tree - Iteration
    12. Find deepest node of binary tree
    13. Delete a node from binary tree
+   14. Find number of leaves in binary tree
    18. Program to find diameter of a tree, i.e. number of nodes in a longest path.
    22. Program to find sum of all numbers in a tree using recursion.
 

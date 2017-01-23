@@ -89,6 +89,7 @@
    18. Program to find diameter of a tree, i.e. number of nodes in a longest path.
    19. Find level that has maximum sum
    20. Print all root to leaf path
+   21. Check for path with given sum
    22. Program to find sum of all numbers in a tree using recursion.
 
 

@@ -93,6 +93,7 @@
    22. Program to find sum of all numbers in a tree using recursion.
    23. Program to find sum of all elements in binary tree - iteration
    24. Convert a tree to its mirror tree
+   25. Check if 1 tree is mirror of other
 
 
 99. Others

@@ -95,6 +95,7 @@
    24. Convert a tree to its mirror tree
    25. Check if 1 tree is mirror of other
    26. Find Lowest Common Ancestor of 2 nodes
+   27. Construct binary tree from inorder and preorder
 
 
 99. Others

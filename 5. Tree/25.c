@@ -1,3 +1,9 @@
+/*********************************************
+*
+*  Check if 1 tree is mirror of other
+*
+*/////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

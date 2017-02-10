@@ -58,6 +58,7 @@
 4. Queue
    1. Program to Reverse a Queue.
    2. Program to Implement Queue using 2 Stack.
+   3. Program to Implement a Stack using 2 Queue.
 
 
 99. Others

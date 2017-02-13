@@ -60,6 +60,7 @@
    2. Program to Implement Queue using 2 Stack.
    3. Program to Implement a Stack using 2 Queue.
    4. Program to find Maximum sum in Sliding Window using array.
+   5. Program to find Maximum sum in Sliding Window using DeQueue.
 
 
 99. Others

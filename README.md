@@ -62,6 +62,7 @@
    4. Program to find Maximum sum in Sliding Window using array.
    5. Program to find Maximum sum in Sliding Window using DeQueue.
    6. Transfer elements from Queue to Stack with front on top (by Iteration).
+   7. Transfer elements from Queue to Stack with front on top (by Recursion).
 
 
 99. Others

@@ -63,6 +63,11 @@
    5. Program to find Maximum sum in Sliding Window using DeQueue.
    6. Transfer elements from Queue to Stack with front on top (by Iteration and Recursion).
    7. Check in Stack that each successive pair of numbers is consecutive or not.
+   8. Rearrange a Queue
+      Input  - 11,12,13,14,15,16,17,18,19,20
+      Output - 11,16,12,17,13,18,14,19,15,20
+
+
 
 
 99. Others

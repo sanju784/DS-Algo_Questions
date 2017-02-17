@@ -66,8 +66,7 @@
    8. Rearrange a Queue
       Input  - 11,12,13,14,15,16,17,18,19,20
       Output - 11,16,12,17,13,18,14,19,15,20
-
-
+   9. Reverse first k element of a Queue
 
 
 99. Others

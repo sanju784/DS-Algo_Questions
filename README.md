@@ -53,7 +53,7 @@
    13. Program to Largest Rectangle under Histogram.
    14. Program to Check that stack grows up or down.
    15. Program to Remove Adjacent duplicate character from a String.
-   
+   16. In an array replace every element with nearest greter number on right of it.   
 
 99. Others
     1. Program to check for Prime number

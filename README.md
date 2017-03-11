@@ -52,7 +52,7 @@
    12. Program to Find Maximum span in an Array using Stack.
    13. Program to Largest Rectangle under Histogram.
    14. Program to Check that stack grows up or down.
-
+   15. Program to Remove Adjacent duplicate character from a String.
    
 
 99. Others

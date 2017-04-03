@@ -11,6 +11,7 @@
 
 2. Linked List 
    1. Program to find n'th node from end of a Linked List
+   2. Program to check that linked list is NULL-terminated or ends in a cycle.
 
 99. Others
     1. Program to check for Prime number

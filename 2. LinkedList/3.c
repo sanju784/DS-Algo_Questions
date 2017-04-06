@@ -1,7 +1,6 @@
 /*********************************************
 *
-*  Program to start node of a cycle, if Linked List has cycles
-*  Using Recursion
+*  Program to find the node at which cycle starts in a Linked List
 *
 */////////////////////////////////////////////
 

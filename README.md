@@ -15,6 +15,7 @@
    3. Program to check if Linked List is not NULL-terminated then find the node at which the cycle starts.
    4. Find Length of cycle in a Singly Linked List
    5. Program to Insert a node in a Sorted Linked List
+   6. Program to Reverse a Linked List (By both Iteration and Recursion)
 
 99. Others
     1. Program to check for Prime number

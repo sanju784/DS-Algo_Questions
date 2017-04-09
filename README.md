@@ -16,6 +16,7 @@
    4. Find Length of cycle in a Singly Linked List
    5. Program to Insert a node in a Sorted Linked List
    6. Program to Reverse a Linked List (By both Iteration and Recursion)
+   7. Program to find merge point of two Singly Linked List
 
 99. Others
     1. Program to check for Prime number

@@ -21,6 +21,7 @@
    9. Program to print Singly Linked List in reverse order.
    10. Program to check that Linked List has Even or Odd number of nodes.
    11. Program to merge 2 sorted List to make a new Sorted List.
+   12. Program to Reverse a Linked List in pair. 1->2->3->4->X To 2->1->4->3->X
 
 99. Others
     1. Program to check for Prime number

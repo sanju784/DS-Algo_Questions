@@ -24,6 +24,7 @@
    12. Program to Reverse a Linked List in pair. 1->2->3->4->X To 2->1->4->3->X
    13. Program to split a Circular Linked List into 2 equal parts.
    14. Program to check if Linked List is Palindrome or not.
+   15. Program to reverse Linked ist in block of k.
 
 99. Others
     1. Program to check for Prime number

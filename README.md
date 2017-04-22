@@ -26,6 +26,8 @@
    14. Program to check if Linked List is Palindrome or not.
    15. Program to reverse Linked ist in block of k.
    16. Josephus Circle problem.
+   17. The nodes having even number must appear at begin of List.
+
 
 99. Others
     1. Program to check for Prime number

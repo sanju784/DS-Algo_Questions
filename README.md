@@ -25,8 +25,9 @@
    13. Program to split a Circular Linked List into 2 equal parts.
    14. Program to check if Linked List is Palindrome or not.
    15. Program to reverse Linked ist in block of k.
-   16. Josephus Circle problem.
-   17. The nodes having even number must appear at begin of List.
+   16. Program to solve Josephus Circle problem.
+   17. Program to arrange nodes of a Linked List in such a way that all nodes having even number must appear at begin.
+   18. Program to find moduar node.
 
 
 99. Others

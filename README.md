@@ -30,6 +30,7 @@
    18. Program to find modular node.
    19. Program to find modular node from end.
    20. Program to find n/k th node of a Linked List.
+   21. Program to find sqrt(n) node of a Linked List.
 
 
 99. Others

@@ -29,6 +29,7 @@
    17. Program to arrange nodes of a Linked List in such a way that all nodes having even number must appear at begin.
    18. Program to find modular node.
    19. Program to find modular node from end.
+   20. Program to find n/k th node of a Linked List.
 
 
 99. Others

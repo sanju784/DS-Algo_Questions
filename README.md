@@ -27,7 +27,8 @@
    15. Program to reverse Linked ist in block of k.
    16. Program to solve Josephus Circle problem.
    17. Program to arrange nodes of a Linked List in such a way that all nodes having even number must appear at begin.
-   18. Program to find moduar node.
+   18. Program to find modular node.
+   19. Program to find modular node from end.
 
 
 99. Others

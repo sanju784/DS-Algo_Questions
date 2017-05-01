@@ -2,7 +2,8 @@
 *
 *  Add 2 Linked List 
 *  The Linked List represnt a number with each node containing 1 number
-*  Most significant digit at head of the result Linked List  
+*  Most significant digit at head of the result Linked List
+*  In this Program - Adding List from head  
 *
 */////////////////////////////////////////////
 

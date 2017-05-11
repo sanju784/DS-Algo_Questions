@@ -49,8 +49,11 @@
    9. Program to Implement 3 Stack in a Single Array.
    10. Program to Implement k Stack on a Single Array.
    11. Program to Find Maximum span in an Array.
+   12. Program to Find Maximum span in an Array using Stack.
 
 
+
+   
 
 99. Others
     1. Program to check for Prime number

@@ -41,6 +41,7 @@
    1. Program to check validation of Mathematical Expression.
    2. Program for Infix to Postfix Conversion.
    3. Program to Evaluate Postfix Expression.
+   4. Program to Evaluate Infix Expression.
 
 
 99. Others

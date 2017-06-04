@@ -42,7 +42,8 @@
    2. Program for Infix to Postfix Conversion.
    3. Program to Evaluate Postfix Expression.
    4. Program to Evaluate Infix Expression.
-   5. Program to Get Minimum in O(1)
+   5. Program to Get Minimum in O(1).
+   6. Program to Check for Palindrome String.
 
 
 99. Others

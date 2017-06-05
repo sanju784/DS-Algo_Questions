@@ -44,6 +44,8 @@
    4. Program to Evaluate Infix Expression.
    5. Program to Get Minimum in O(1).
    6. Program to Check for Palindrome String.
+   7. Program to Reverse a Stack using only Push and Pop Operation.
+
 
 
 99. Others

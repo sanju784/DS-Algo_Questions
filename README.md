@@ -45,6 +45,7 @@
    5. Program to Get Minimum in O(1).
    6. Program to Check for Palindrome String.
    7. Program to Reverse a Stack using only Push and Pop Operation.
+   8. Program to Implement 2 Stack in a Single Array.
 
 
 

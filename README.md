@@ -38,7 +38,8 @@
    26. Program to sort a Linked List.
 
 3. Stack
-   1. Program to check validation of Mathematical Expression
+   1. Program to check validation of Mathematical Expression.
+   2. Program for Infix to Postfix Conversion.
 
 
 99. Others

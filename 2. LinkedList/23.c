@@ -66,17 +66,6 @@ node* addListNumberFromHead(node *h1, node *h2) {
   return resHead;
 }
 
-void sumList(node *h1, node *h2, node **h3, int *carry) {
-  if (h1 == NULL) {
-    (*h3)->next = NULL;
-    return;
-  }
-  *h3 = (node*)malloc(sizeof(node));
-  sumList(h1->next, h2->next, &(*h3)->next, carry);
-  (*h3)->data = ((h1->data) + (h2->data) + *carry) % 10;
-  *carry = ((h1->data) + (h2->data) + *carry) / 10;
-}
-
 void main() {
   node *head1 = NULL;
   node *head2 = NULL;

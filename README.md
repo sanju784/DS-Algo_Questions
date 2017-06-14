@@ -37,6 +37,9 @@
    25. Program to rearrange a Linked List. Input - {A1,A2....An-1,An}. Output - {A1,An,A2,An-1,....}
    26. Program to sort a Linked List.
 
+3. Stack
+   1. Program to check validation of Mathematical Expression
+
 
 99. Others
     1. Program to check for Prime number

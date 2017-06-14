@@ -1,6 +1,6 @@
 /*********************************************
 *
-*  Program to check that validation of Mathematical Expression
+*  Program to check validation of Mathematical Expression
 *
 */////////////////////////////////////////////
 

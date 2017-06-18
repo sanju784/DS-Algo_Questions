@@ -28,6 +28,9 @@ void display(node *h) {
   }
 }
 
+/**
+ * This is same as finiding k'th node from end
+ */
 node *modularFromEnd(node *h, int k) {
   if (k == 0 || h == NULL)
     return NULL;

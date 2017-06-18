@@ -43,6 +43,23 @@ void sortList(node *h) {
 	}
 }
 
+void bubbleSort(node *h) {
+	node *lastPtr = NULL;
+	int swapped = 1;
+	node *temp;
+	int val;
+	while(swapped == 1) {
+		swapped = 0;
+		for(temp = h; temp->next != lastPtr; temp = temp->next) {
+			if(temp->data > temp->next->data) {
+				swap(temp, temp->next);
+				swapped = 1;
+			}
+		}
+		lastPtr = temp;
+	}
+}
+
 void main() {
 	node *head = NULL;
 

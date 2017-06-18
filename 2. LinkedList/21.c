@@ -45,6 +45,26 @@ node* getRootNode(node *h) {
   return root_node;
 }
 
+/**
+ * Another fuction to get root node
+ * moving root node to next when number with perfect square comes
+ */
+node* getRootNode2(node *h) {
+	if (h == NULL)
+      return NULL;
+	node *sqrtNode = h;
+	int i = 1, s = 1;
+	while(h) {
+		if(floor(sqrt(i)) > s) {
+			s++;
+			sqrtNode = sqrtNode->next;
+		}
+		i++;
+		h = h->next;
+	}
+	return sqrtNode;
+}
+
 void main() {
   node *head = NULL;
   node *root_node;

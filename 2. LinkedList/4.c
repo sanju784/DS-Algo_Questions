@@ -35,7 +35,7 @@ int getLoopLength(node *h) {
 		slowPtr = slowPtr->next;
 		fastPtr = fastPtr->next->next;
 		if(slowPtr == fastPtr) {
-          slowPtr = slowPtr->next;
+                  slowPtr = slowPtr->next;
 		  fastPtr = fastPtr->next->next;
 		  i++;
           break;

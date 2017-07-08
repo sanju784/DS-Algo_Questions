@@ -35,6 +35,7 @@
    23. Program to add 2 Linked List where each node represents a single digit of a number, the addition of Linked List shows addition of number. (Adding from head)
    24. Program to add 2 Linked List where each node represents a single digit of a number, the addition of Linked List shows addition of number. (Adding from tail)
    25. Program to rearrange a Linked List. Input - {A1,A2....An-1,An}. Output - {A1,An,A2,An-1,....}
+   26. Program to sort a Linked List.
 
 
 99. Others

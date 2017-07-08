@@ -38,6 +38,7 @@ void printnFromLast(node *head, int n) {
   if(head == NULL) {
 	if (count < n) {
   	  printf("\nThe required node does not exist.\n");
+	  exit(0);
 	}
   	return;
   }

@@ -34,13 +34,17 @@ void printList(node *h) {
 
 void printnFromLast(node *head, int n) {
   static int i = 0;
+  static int count = 0;
   if(head == NULL) {
-  	printf("\nThe required node does not exist.\n");
+	if (count < n) {
+  	  printf("\nThe required node does not exist.\n");
+	}
   	return;
   }
+  count++;
   printnFromLast(head->next, n);
   if(++i == n) {
-  	printf("\nThe nth node is %d \n", head->data);
+  	printf("\nThe nth node form end is %d \n", head->data);
   }
 }
 

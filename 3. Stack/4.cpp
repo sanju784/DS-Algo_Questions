@@ -67,7 +67,7 @@ int main() {
 			}
 			oprStk.pop();
 		} else if (getPrecedence(exp[i]) >= getPrecedence(oprStk.top())) {
-          oprStk.push(exp[i]);
+                       oprStk.push(exp[i]);
 		} else {
 			while(getPrecedence(oprStk.top()) > getPrecedence(exp[i]) && !oprStk.empty()) {
 				char op = oprStk.top();

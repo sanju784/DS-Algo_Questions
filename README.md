@@ -68,6 +68,9 @@
       Output - 11,16,12,17,13,18,14,19,15,20
    9. Reverse first k element of a Queue
 
+5. Tree
+   22. Program to find sum of all numbers in a tree using recursion.
+
 
 99. Others
     1. Program to check for Prime number

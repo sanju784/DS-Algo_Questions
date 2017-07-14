@@ -69,6 +69,7 @@
    9. Reverse first k element of a Queue
 
 5. Tree
+   18. Program to find diameter of a tree, i.e. number of nodes in a longest path.
    22. Program to find sum of all numbers in a tree using recursion.
 
 

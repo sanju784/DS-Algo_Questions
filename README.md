@@ -102,6 +102,7 @@
    33. Draw tree from Preorder and other given cases.
    34. Fill next sibling pointer of a tree - recursion
    35. Fill next sibling pointer of a tree - Iteration
+   36. Find Sum of all elements in N-array tree
 
 
 99. Others

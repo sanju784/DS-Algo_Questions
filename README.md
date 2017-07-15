@@ -98,6 +98,7 @@
    27. Construct binary tree from inorder and preorder
    29. Print all ancestors of a node
    30. Spiral traversal of a tree
+   31. Find vertical Sum of a binary tree
    33. Draw tree from Preorder and other given cases.
    34. Fill next sibling pointer of a tree - recursion
    35. Fill next sibling pointer of a tree - Iteration

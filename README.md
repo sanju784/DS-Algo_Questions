@@ -108,6 +108,7 @@
    41. Count number of childers of a node in generic tree
    42. Check that trees are isomorphic to each other
    43. Check that trees are quasi-isomorphic to each other
+   50. Check if Binary tree is BST
 
 
 99. Others

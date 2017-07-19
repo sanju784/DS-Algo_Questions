@@ -109,6 +109,7 @@
    42. Check that trees are isomorphic to each other
    43. Check that trees are quasi-isomorphic to each other
    50. Check if Binary tree is BST
+   60. Find k'th smallest number in a BST
 
 
 99. Others

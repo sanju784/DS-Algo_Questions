@@ -127,6 +127,11 @@
    77. Generate AVL tree of height h with minimum nodes
    78. Count numbers of nodes in the range (a,b) in BST
 
+6. Heap
+   1. Find maximum element from a min-heap.
+
+
+
 
 99. Others
     1. Program to check for Prime number

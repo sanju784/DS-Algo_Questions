@@ -108,6 +108,7 @@
    41. Count number of childers of a node in generic tree
    42. Check that trees are isomorphic to each other
    43. Check that trees are quasi-isomorphic to each other
+   46. Find inorder Successor in BST
    47. Find Lowest Common Ancestor of 2 nodes in a BST
    48. Find Shortest Path bewteen 2 nodes in a BST
    50. Check that a given tree is BST

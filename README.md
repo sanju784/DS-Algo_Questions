@@ -130,6 +130,8 @@
 6. Heap
    1. Find maximum element from a min-heap.
    2. Delete i-th index element from a min-heap
+   3. Get All elements less than k in a binary heap
+   4. Program to merge two binary max-heaps
 
 
 

@@ -132,6 +132,7 @@
    2. Delete i-th index element from a min-heap
    3. Get All elements less than k in a binary heap
    4. Program to merge two binary max-heaps
+   5. Find k-th smalledt element in a binary heap
 
 
 

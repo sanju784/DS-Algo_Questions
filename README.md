@@ -139,6 +139,9 @@
    9. Merge k sorted array
    10. Find largest n pair from 2 arrays
 
+8. Sort
+   1. Check if an array have duplicate elements.
+
 
 
 

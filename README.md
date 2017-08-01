@@ -141,6 +141,7 @@
 
 8. Sort
    1. Check if an array have duplicate elements.
+   2. Check who wins election by counting votes.
 
 
 

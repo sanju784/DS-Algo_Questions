@@ -1,3 +1,10 @@
+/*********************************************
+*
+*  Find a and b from 2 array such that a+b=k
+*
+*/////////////////////////////////////////////
+
+
 //compile with g++ -std=c++0x 9.cpp
 
 #include <bits/stdc++.h>

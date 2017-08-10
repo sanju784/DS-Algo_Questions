@@ -150,6 +150,7 @@
    8. Find number that appeared maximum number of times.
    9. Sort array in which a number is k position away from target.
    10. Sorting a Linked List.
+   11. Sorting Linked List with QuickSort.
 
 
 

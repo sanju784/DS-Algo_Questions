@@ -152,6 +152,7 @@
    10. Sorting a Linked List.
    11. Sorting Linked List with QuickSort.
    12. Merge k-sorted Linked List.
+   13. Merge 2 sorted array.
 
 
 

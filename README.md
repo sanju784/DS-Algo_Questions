@@ -173,6 +173,7 @@
    14. Find element in a rotated array
    15. Find median of all elements in a sorted array of size m and n
    46. Find index of first occurance of a number in array with duplicate values
+   47. Find index of last occurance of a number in array with duplicate values
 
  
 17. Dynamic Programming

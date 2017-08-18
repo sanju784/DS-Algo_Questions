@@ -175,6 +175,7 @@
    46. Find index of first occurance of a number in array with duplicate values
    47. Find index of last occurance of a number in array with duplicate values
    48. Find number of occurance of a number in array with duplicate values
+   52. Find second smallest number in array
 
  
 17. Dynamic Programming

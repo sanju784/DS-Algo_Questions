@@ -177,6 +177,7 @@
    48. Find number of occurance of a number in array with duplicate values
    52. Find second smallest number in array
    54. Find number that appears more than n/2 times in array
+   59. Find element that appear maximum number of times in array
 
  
 17. Dynamic Programming

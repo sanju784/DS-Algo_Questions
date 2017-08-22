@@ -172,6 +172,9 @@
    13. Find index at which an increasing array become decreasing
    14. Find element in a rotated array
 
+ 
+17. Dynamic Programming
+   1. Find T(n) = 2*T(n-1)*T(n-2)
 
 
 

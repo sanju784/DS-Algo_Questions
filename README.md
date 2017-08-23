@@ -175,6 +175,7 @@
  
 17. Dynamic Programming
    1. Find T(n) = 2*T(n-1)*T(n-2)
+   4. Find Longest Consequitive Subsequence in an array.
 
 
 

@@ -177,6 +177,7 @@
    1. Find T(n) = 2*T(n-1)*T(n-2)
    4. Find Longest Consequitive Subsequence in an array.
    9. Maximum sum such that no two elements are adjacent.
+   11. Find Maximum subsequence sum such that no three elements are consequtive.
 
 
 

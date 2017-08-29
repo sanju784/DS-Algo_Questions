@@ -1,6 +1,6 @@
 /*********************************************
 *
-*  Maximum element in binary tree - recursion
+*  Maximum element in binary tree (not BST) - recursion
 *
 */////////////////////////////////////////////
 

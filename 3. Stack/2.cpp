@@ -39,7 +39,7 @@ char* infixToPostfix(string exp) {
     if (isOperand(exp[i])) {
       res[j++] = exp[i];
     } else if (exp[i] == '(' || s.empty()) {
-      s.push('(');
+      s.push(exp[i]);
     } else if(exp[i] == ')') {
       while (s.top() != '(') {
         res[j++] = s.top();

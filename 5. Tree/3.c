@@ -31,11 +31,22 @@ node *create() {
 }
 
 bool find(node *p, int n) {
-  while(p != NULL) {
-    if(p->data == n)
-      return true;
-    return find(p->left, n);
-    return find(p->right, n);
+  int val;
+  int left, right;
+  if(p!=NULL)
+  {
+      val = p->data;
+      if(val == n)
+        return true;
+      left = find(p->left, n);
+      if(left == true)
+        return true;
+      else
+      {
+          right = find(p->right, n);
+          if(right == true)
+            return true;
+      }
   }
   return false;
 }

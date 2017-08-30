@@ -1,6 +1,6 @@
 /*********************************************
 *
-*  fill next sibling pointer of a tree - Iteration
+*  Fill next sibling pointer of all nodes of a tree - Recursion
 *
 */////////////////////////////////////////////
 

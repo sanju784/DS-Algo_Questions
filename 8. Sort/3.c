@@ -13,12 +13,7 @@ void main() {
   int n = sizeof(votes)/sizeof(votes[0]);
   int c[] = {0,0,0};
   for(i=0;i<n;i++) {
-    if(votes[i] == 0)
-        c[0]++;
-    else if(votes[i] == 1)
-        c[1]++;
-    else
-        c[2]++;
+    c[votes[i]]++;
   }
   int win = 0;
   for (i=1;i<3;i++)

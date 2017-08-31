@@ -15,6 +15,7 @@ class Stack{
 //here the data is entered with the counter
 // the data is extracted using counter
 // the last inserted data counter will be highest so it will be extracted first
+// as priority_queue always return the highest value, so cnt with highest value will be returned which will be the last inserted value
 priority_queue<pair<int, int> > pq;
 
 int cnt;

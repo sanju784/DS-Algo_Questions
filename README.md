@@ -202,6 +202,7 @@
    13. Find catalan number i.e. Total number of possible BST from n vertices.
    15. Matrix Product Parenthesizations.
    17. Integer Knapsack Problem - WIth duplicate items permitted.
+   18. 0/1 knapsack problem.
 
 
 

@@ -9,7 +9,8 @@
 #include <limits.h>
 
 int getMax(int heap[], int n) {
-	//parent of last value
+	//as largest element of heap will always be in last level of heap
+	//so getting parent of last value in heap and checking for largest value from there
 	int p = ((n-1)-1)/2;
 	int i;
 	int max = INT_MIN;

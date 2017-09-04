@@ -203,6 +203,7 @@
    15. Matrix Product Parenthesizations.
    17. Integer Knapsack Problem - WIth duplicate items permitted.
    18. 0/1 knapsack problem.
+   19. Making SUm with Minimum number of Coins.
 
 
 

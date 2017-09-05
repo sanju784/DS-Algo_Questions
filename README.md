@@ -204,6 +204,7 @@
    17. Integer Knapsack Problem - WIth duplicate items permitted.
    18. 0/1 knapsack problem.
    19. Making SUm with Minimum number of Coins.
+   20. Longest Increasing subsequence in an array.
 
 
 

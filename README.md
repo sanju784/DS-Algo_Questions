@@ -205,6 +205,7 @@
    18. 0/1 knapsack problem.
    19. Making SUm with Minimum number of Coins.
    20. Longest Increasing subsequence in an array.
+   23. Box Stacking with maximum height.
 
 
 

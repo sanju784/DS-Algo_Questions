@@ -28,21 +28,6 @@ void print(node *h) {
 	}
 }
 
-void sortList(node *h) {
-	node *temp1, *temp2, *temp;
-	for (temp1 = h; temp1->next->next != NULL; temp1 = temp1->next) {
-		int s = temp1->data;
-		for (temp2 = temp1->next; temp2 != NULL; temp2 = temp2->next) {
-			if (temp2->data < s) {
-				s = temp2->data;
-				temp = temp2;
-			}
-		}
-		temp->data = temp1->data;
-		temp1->data = s;
-	}
-}
-
 void bubbleSort(node *h) {
 	node *lastPtr = NULL;
 	int swapped = 1;

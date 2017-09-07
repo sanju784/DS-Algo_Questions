@@ -60,6 +60,23 @@ void bubbleSort(node *h) {
 	}
 }
 
+//Insertion Sort of Linked List
+//Insertion is best to do for Linked List
+void insertionSort(node *h)
+{
+	for(node *temp1 = h; temp1->next != NULL; temp1=temp1->next)
+	{
+		node *pos = NULL;
+		for(node *temp2 = temp1->next; temp2 != NULL; temp2=temp2->next)
+		{
+			if(temp2->n < temp1->n)
+				pos = temp2;
+		}
+		if(pos)
+		swap(temp1->n, pos->n);
+	}
+}
+
 void main() {
 	node *head = NULL;
 

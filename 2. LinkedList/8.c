@@ -31,25 +31,16 @@ void display(node *h) {
 int getMiddle (node *h) {
   node *slowPtr = h;
   node *fastPtr = h;
+  node *prev;
   while (fastPtr && fastPtr->next) {
+    prev = slowPtr;
     slowPtr = slowPtr->next;
     fastPtr = fastPtr->next->next;
   }
-  return slowPtr->data;
-}
-
-//using a variable and pointer the pointer will be updated when variable value is odd
-int getMiddle2( node *h) {
-  int count = 0;
-  node *mid = h;
-  while(h != NULL) {
-    if (count % 2 == 1) {
-      mid = mid->next;
-    }
-    h = h->next;
-    count++;
-  }
-  return mid->data;
+  if(fastPtr == NULL)
+    return prev->data;
+  else
+    return slowPtr->data;
 }
 
 void main() {
@@ -63,7 +54,6 @@ void main() {
   display(head);
   if (head != NULL) {
     printf("\nThe middle value of List is %d\n", getMiddle(head));
-    printf("\nThe middle value of List is %d\n", getMiddle2(head));
   } else {
     printf("\nThe List is empty.\n");
   }

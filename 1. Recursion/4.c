@@ -30,7 +30,5 @@ int main() {
 	int n = sizeof(arr)/sizeof(arr[0]);
 	int k = 3;
 	all_combi(arr, n, k);
-	// char temp[k];
-	// k_str(arr, n, k, temp, 0);
 	return 0;
 }

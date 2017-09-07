@@ -1,3 +1,9 @@
+/**
+ * Generate all string of length k
+ *
+ * Same as binary number generation, the only difference is that here we have to call recursion function k times instead of 2(as in binary)
+ */
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>

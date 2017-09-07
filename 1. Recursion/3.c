@@ -2,6 +2,8 @@
 *
 *  Generate all possible number of size k
 *
+* Same as previous One - running recursion function k times
+*
 */////////////////////////////////////////////
 
 #include <stdio.h>

@@ -206,6 +206,8 @@
    19. Making SUm with Minimum number of Coins.
    20. Longest Increasing subsequence in an array.
    23. Box Stacking with maximum height.
+   24. Maximum bridges between cities.
+
 
 
 

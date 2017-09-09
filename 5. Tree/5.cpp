@@ -15,8 +15,6 @@ typedef struct tree {
   struct tree *left, *right;
 } node;
 
-queue <node*> q;
-
 node *create() {
   node* p;
   int n;
@@ -42,12 +40,12 @@ void insertInTree(node **p, int n) {
   newNode->left = NULL;
   newNode->right = NULL;
 	  
-  if(*p) {
-    q.push(*p);
-  } else {
+  if(*p == NULL) {
     *p = newNode;
 	return;
   }
+  queue <node*> q;
+  q.push(*p);
   node *temp;
   while(!q.empty()) {
     temp = q.front();
@@ -58,11 +56,10 @@ void insertInTree(node **p, int n) {
     } else if(temp->right == NULL) {
       temp->right = newNode;
       return;
-    }
-    if(temp->left)
+    } else {
       q.push(temp->left);
-    if(temp->right)
       q.push(temp->right);
+    }
   }
 }
 

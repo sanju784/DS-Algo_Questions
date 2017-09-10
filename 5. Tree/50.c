@@ -1,6 +1,6 @@
 /*********************************************
 *
-*  Check that a given tree is BST
+*  Check that a given tree is BST 
 *
 */////////////////////////////////////////////
 

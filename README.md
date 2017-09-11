@@ -196,21 +196,21 @@
  
 17. Dynamic Programming
    1. Find T(n) = 2*T(n-1)*T(n-2)
-   4. Find Longest Consequitive Subsequence in an array.
-   9. Maximum sum such that no two elements are adjacent.
-   11. Find Maximum subsequence sum such that no three elements are consequtive.
-   13. Find catalan number i.e. Total number of possible BST from n vertices.
-   15. Matrix Product Parenthesizations.
-   17. Integer Knapsack Problem - WIth duplicate items permitted.
-   18. 0/1 knapsack problem.
-   19. Making SUm with Minimum number of Coins.
-   20. Longest Increasing subsequence in an array.
-   23. Box Stacking with maximum height.
-   24. Maximum bridges between cities.
-   25. Find subset in an array which sums for Total.
-   28. Partition a set in two subsets of same sum.
-   29. Count number of ways parantheses can be placed between boolean operator so that result is always true.
-   30. In a BST each node has frequency Create Optimal BST such that total search time is reduced.
+   2. Find Longest Consequitive Subsequence in an array.
+   3. Maximum sum such that no two elements are adjacent.
+   4. Find Maximum subsequence sum such that no three elements are consequtive.
+   5. Find catalan number i.e. Total number of possible BST from n vertices.
+   6. Matrix Product Parenthesizations.
+   7. Integer Knapsack Problem - WIth duplicate items permitted.
+   8. 0/1 knapsack problem.
+   9. Making SUm with Minimum number of Coins.
+   10. Longest Increasing subsequence in an array.
+   11. Box Stacking with maximum height.
+   12. Maximum bridges between cities.
+   13. Find subset in an array which sums for Total.
+   14. Partition a set in two subsets of same sum.
+   15. Count number of ways parantheses can be placed between boolean operator so that result is always true.
+   16. In a BST each node has frequency Create Optimal BST such that total search time is reduced.
 
 
 

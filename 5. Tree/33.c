@@ -31,10 +31,12 @@ node* newNode (int data)
 }
 
 node *createTree(int pre[], char preN[], int *index, int n) {
+  //value of current index need to be saved
   int i = *index;
   if(i == n)
     return NULL;
   node *temp = newNode(pre[i]);
+  //the index was saved before as here we are changing the index value, but at next line we need previous value
   (*index)++;
   if(preN[i] == 'N')
   {

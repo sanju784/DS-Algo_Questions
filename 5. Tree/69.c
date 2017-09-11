@@ -1,6 +1,8 @@
 /*********************************************
 *
 *  Check if elements of 2 BST are same or not
+*  
+*  Here the structure of tree may be different only values must be same
 *
 */////////////////////////////////////////////
 
@@ -47,7 +49,7 @@ node *create2() {
 bool checkTree(node* r1, node* r2) {
     if(r1 == NULL && r2 == NULL)
       return true;
-    else if((r1 != NULL && r2 == NULL) || (r1 == NULL && r2 != NULL))
+    else if(r1 != NULL || r2 != NULL)
         return false;
     else if(r1->data == r2->data)
       return checkTree(r1->left, r2->left) && checkTree(r1->right, r2->right);

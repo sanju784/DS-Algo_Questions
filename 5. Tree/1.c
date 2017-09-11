@@ -30,6 +30,20 @@ node *create() {
   return p;
 }
 
+/**
+  The  below program is same as preorder traversal
+  It can be done also in Inorder 
+  max = getMax(root->left, max);
+  if(root->data > max)
+    max = root->data;
+  max = getMax(root->right, max);
+  
+  Similarly it can be done in postorder way
+  max = getMax(root->left, max);
+  max = getMax(root->right, max);
+  if(root->data > max)
+    max = root->data;
+*/
 int getMax(node *p, int max) {
   if(p != NULL) {
     if(p->data > max) {

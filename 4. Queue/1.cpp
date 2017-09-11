@@ -9,22 +9,33 @@
 
 using namespace std;
 
-queue <int> q;
-
-void reverse() {
-    if(q.size() == 0)
-        return;
-    int n = q.front();
-    cout<<n<<" is poped"<<endl;
-    q.pop();
-    reverse();
-    q.push(n);
+void print(queue<int> q)
+{
+    while(!q.empty())
+    {
+        printf("%d ", q.front());
+        q.pop();
+    }
+    cout<<endl;
 }
 
-int main() {
-    q.push(5);
-    q.push(3);
-    q.push(2);
-    reverse();
-    return 0;
+void reverse(queue<int> &q)
+{
+    if(!q.empty())
+    {
+        int n = q.front();
+        q.pop();
+        reverse(q);
+        q.push(n);
+    }
+}
+
+int main()
+{
+    queue<int> q;
+    for(int i=1;i<=5;i++)
+        q.push(i);
+    print(q);
+    reverse(q);
+    print(q);
 }

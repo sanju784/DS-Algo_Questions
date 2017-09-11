@@ -38,6 +38,9 @@ node* findLCA(node *root, int a, int b) {
 
   if(left_lca && right_lca)
     return root;
+  
+  if(left == NULL && right == NULL)
+    return NULL;
 
   return (left_lca != NULL) ? left_lca : right_lca;
 }

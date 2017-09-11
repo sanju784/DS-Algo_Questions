@@ -1,7 +1,6 @@
 /*********************************************
 *
 *  Reverse a Linked List
-*  By both Iterative and Recursive way
 *
 */////////////////////////////////////////////
 
@@ -27,30 +26,18 @@ void print(node *h) {
   }
 }
 
-void reverseListRec(node **h, node* prev, node* current, node *nextP) {
-  if(nextP->next == NULL) {
-    *h = nextP;
-    return;
+void reverseList(node **h) {
+  node* prev = NULL;
+  node *curr = *h;
+  node *next;
+  while(curr != NULL)
+  {
+    next = curr->next; //as current next value will change first so saving it first
+    curr->next = prev; //current will point to previous
+    prev = curr;       //moving prev to current
+    curr = next;       //moving current to next
   }
-  current->next = prev;
-  prev = current;
-  current = nextP;
-  nextP = nextP->next;
-  reverseList(h, prev, current, nextP);
-}
-
-void reverseListItr(node **h, node* prev, node* current, node *nextP) {
- while (1) {
-  if(nextP == NULL) {
-    *h = current;
-    current->next = prev;
-    break;
-  }
-  current->next = prev;
-  prev = current;
-  current = nextP;
-  nextP = nextP->next;
- }
+  *h = prev;
 }
 
 void main() {
@@ -62,8 +49,7 @@ void main() {
   addNode(&head, 45);
   addNode(&head, 55);
   print(head);
-  node *prev = NULL, *current = head, *nextP = head->next;
-  reverseListItr(&head, prev, current, nextP);
+  reverseList(&head);
   printf("\n");
   print(head);
 }

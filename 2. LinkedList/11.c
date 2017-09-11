@@ -26,30 +26,33 @@ void display(node *h) {
   }
 }
 
-void mergeList (node *h1, node *h2, node **h3) {
+node* mergeList (node *h1, node *h2) {
+  node *h3 = NULL;
+  //here pointer to last node of result List is needed to add new nodes after it
+  //as we cannot move head of resulting List as doing so we cannot get head back
   node *lastPtr;
   if(h1 == NULL) {
-    *h3 = h2;
-    return;
+    h3 = h2;
+    return h3;
   }
   if (h2 == NULL) {
-    *h3 = h1;
-    return;
+    h3 = h1;
+    return h3;
   }
   while (h1 != NULL && h2 != NULL) {
     if(h1->data < h2->data) {
-      if(*h3 == NULL){
-        *h3 = h1;
-        lastPtr = h1;
+      if(h3 == NULL){
+        h3 = h1;
+        lastPtr = h3;
       } else {
         lastPtr->next = h1;
         lastPtr = lastPtr->next;
       }
       h1 = h1->next;
     } else {
-      if(*h3 == NULL) {
-        *h3 = h2;
-        lastPtr = h2;
+      if(h3 == NULL) {
+        h3 = h2;
+        lastPtr = h3;
       } else {
         lastPtr->next = h2;
         lastPtr = lastPtr->next;
@@ -64,12 +67,13 @@ void mergeList (node *h1, node *h2, node **h3) {
   if(h2 == NULL) {
     lastPtr->next = h1;
   }
+  
+  return h3;
 }
 
 void main() {
   node *head1 = NULL;
   node *head2 = NULL;
-  node *head3 = NULL;
   addNode(&head1, 55);
   addNode(&head1, 45);
   addNode(&head1, 35);
@@ -81,7 +85,7 @@ void main() {
   addNode(&head2, 10);
   printf("\n\n");
   display(head2);
-  mergeList(head1, head2, &head3);
+  node *head3 = mergeList(head1, head2);
   printf("\n\nThe list after merge is \n");
   display(head3);
 }

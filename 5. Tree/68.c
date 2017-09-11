@@ -46,11 +46,15 @@ node* trimTree(node *root, int n1, int n2) {
 
   root->left = trimTree(root->left, n1, n2);
   root->right = trimTree(root->right, n1, n2);
+  //replacing the current node with its right subtree if its value is less than range
+  //it is so because right subtree will have the value greater than lower limit of range
   if(root->data < n1) {
     node *rChild = root->right;
     free(root);
     return rChild;
   }
+  //replacing the current node with its left subtree if its value is greater than range
+  //it is so because left subtree will have the value less than upper limit of range
   if(root->data > n2) {
     node *lChild = root->left;
     free(root);

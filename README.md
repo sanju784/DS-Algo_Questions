@@ -210,6 +210,7 @@
    25. Find subset in an array which sums for Total.
    28. Partition a set in two subsets of same sum.
    29. Count number of ways parantheses can be placed between boolean operator so that result is always true.
+   30. In a BST each node has frequency Create Optimal BST such that total search time is reduced.
 
 
 

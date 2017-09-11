@@ -208,6 +208,7 @@
    23. Box Stacking with maximum height.
    24. Maximum bridges between cities.
    25. Find subset in an array which sums for Total.
+   28. Partition a set in two subsets of same sum.
 
 
 

@@ -231,6 +231,9 @@
    14. Partition a set in two subsets of same sum.
    15. Count number of ways parantheses can be placed between boolean operator so that result is always true.
    16. In a BST each node has frequency Create Optimal BST such that total search time is reduced.
+   17. Find minimum number of operations required to change one string to other
+   18. Floyd's Warshall Algorithm
+   19. Optimal Strategy for a coin game
 
 
 

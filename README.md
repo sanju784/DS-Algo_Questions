@@ -234,6 +234,7 @@
    17. Find minimum number of operations required to change one string to other
    18. Floyd's Warshall Algorithm
    19. Optimal Strategy for a coin game
+   20. Find number of ways tiling of 2*n strip can be done from tile of size 2*1
 
 
 

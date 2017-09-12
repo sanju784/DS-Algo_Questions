@@ -2,35 +2,22 @@
 *
 *  Find element that appear maximum number of times
 *
+*  Numbers are in range of 0 to n-1
 */////////////////////////////////////////////
 
 #include <stdio.h>
 
 void maxFrequency(int arr[], int n) {
 	int i;
-	for(i=0;i<n;i++) {
-		arr[arr[i]%n]+=n;
-	}
-	/**
-	int max = arr[0], result = 0;
-	for(i=1;i<n;i++)
-	{
-		if(arr[i] > max){
-			max = arr[i];
-			result = i;
-		}
-	}
-	return result;
-	*/
-	int max = 0;
-	for(i=0;i<n;i++){
-		arr[i] = arr[i]/n;
-		if(arr[i] > max)
-			max=arr[i];
-	}
 	for(i=0;i<n;i++)
-		if(arr[i] == max)
-		printf("%d ", i);
+		arr[arr[i]%n] += n;
+	
+	int max = 0;
+	for(i=0;i<n;i++)
+		if(arr[i]/n > max)
+			max = i;
+		
+	printf("%d", max);
 }
 
 void main() {

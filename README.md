@@ -126,6 +126,15 @@
    76. Check if given BST is AVL
    77. Generate AVL tree of height h with minimum nodes
    78. Count numbers of nodes in the range (a,b) in BST
+   81. Find node with the closest given key, in BST
+   84. Delete all half nodes from a tree
+   85. Delete all leaf node from tree
+   86. In BST remove nodes outside of range
+   87. Connect nodes at same level
+   88. Connect nodes at same level - without extra space
+   91. Maximum path sum in a binary tree
+
+
 
 6. Heap
    1. Find maximum element from a min-heap.

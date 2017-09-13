@@ -1,7 +1,8 @@
 /*********************************************
 *
-*  Find element in a rotated array
+*  Find element in a Bitonic array
 *
+*  Bitonic array - an array with first k element in increasing and then decreasing order
 */////////////////////////////////////////////
 
 #include <stdio.h>

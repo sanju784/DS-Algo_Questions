@@ -1,7 +1,8 @@
 /*********************************************
 *
-*  Find element in a rotated array
+*  Find element in a Bitonic array
 *
+*  Bitonic array - an array with first k element in increasing and then decreasing order
 */////////////////////////////////////////////
 
 #include <stdio.h>
@@ -69,3 +70,23 @@ void main(){
     if(res != -1)
     	printf("%d is at %d position", key, res+1);
 }
+
+/**
+int bitonic(int arr[], int n, int k)
+{
+	int start = 0, end = n-1, mid;
+	while(start <= end)
+	{
+		mid = (start+end)/2;
+		if(arr[mid] == k)
+			return mid;
+		if(arr[start] < arr[mid])
+		{
+			if(k < arr[mid])
+				end = mid-1;
+			else
+				start = mid+1;
+		}
+	}
+}
+*/

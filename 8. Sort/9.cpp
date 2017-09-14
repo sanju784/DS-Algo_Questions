@@ -21,7 +21,7 @@ void findPair(int a1[], int a2[], int n1, int n2, int x) {
 }
 
 int main() {
-	int arr1[] = {1, 0, -4, 7, 6, 4};
+    int arr1[] = {1, 0, -4, 7, 6, 4};
     int arr2[] = {0 ,2, 4, -3, 2, 1};
     int x = 8;
     int n = sizeof(arr1)/sizeof(int);

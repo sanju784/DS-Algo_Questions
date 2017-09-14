@@ -2,6 +2,7 @@
 *
 *  Sort an array of 0's 1's and 2's
 *
+* Here using count Sort technique
 */////////////////////////////////////////////
 
 #include <stdio.h>
@@ -16,7 +17,7 @@ void main() {
 	}
 	int j=0;
 	for(i=0;i<3;i++) {
-		while(count[i]-->0)
+		while(count[i]-- > 0)
 			arr[j++]=i;
 	}
 	for(i=0;i<n;i++)

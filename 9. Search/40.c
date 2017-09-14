@@ -50,3 +50,30 @@ void main() {
    int key = 3;
    printf("%d is at %d position", key, search(arr, n , key));
 }
+
+/**
+int rotateFind(int a[], int n, int x) {
+	int start, end, mid;
+	start = 0;
+	end = n-1;
+	while(start <= end) {
+		mid = (start + end)/2;
+		if(x == a[mid])
+			return mid;
+		if(a[mid] <= a[end]) {
+			if(x > a[mid] && x <= a[end])
+				start = mid + 1;
+			else
+				end = mid -1;
+		}
+		else
+		{
+			if(a[start] <= x && x < a[mid])
+				end = mid -1;
+			else
+				start = mid+1;
+		}
+	}
+	return -1;
+}
+*/

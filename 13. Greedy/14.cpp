@@ -1,6 +1,9 @@
 /**
  * Fractional Knapscak Problem
  */
+
+//compile by g++ -std=c++11 14.cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -14,7 +17,7 @@ struct Item
 	{}
 };
 
-//Comparison function to sort Items according to val/weight ratio
+//Comparison function to sort Items in decreasing order of val/weight ratio
 bool cmp(struct Item a, struct Item b)
 {
 	double r1 = (double)a.value/a.weight;
@@ -24,6 +27,7 @@ bool cmp(struct Item a, struct Item b)
 
 double fractionalKnapsack(int W, struct Item arr[], int n)
 {
+	//sorting value/weight in decreasing order
 	sort(arr, arr+n, cmp);
 	
 	//current weight in knapsack
@@ -33,10 +37,12 @@ double fractionalKnapsack(int W, struct Item arr[], int n)
 	
 	for(int i=0;i<n;i++)
 	{
+		//selecting element with highest value/weight ratio first
 		if(curWeight + arr[i].weight <= W)
 		{
 			curWeight += arr[i].weight;
 			finalValue += arr[i].value;
+		//the final weight which does not match any so taking that weight at last and breaking loop
 		} else {
 			int remain = W - curWeight;
 			finalValue += arr[i].value * ((double) remain / arr[i].weight);

@@ -39,3 +39,30 @@ void main()
     char mask_str[]  = "mask";
     printf("%s", removeChars(str, mask_str));
 }
+
+
+/**
+
+void remove(char a[], char b[])
+{
+    unordered_set<char> s;
+    for(int i=0;i < strlen(a);i++)
+    {
+        s.insert(a[i]);
+    }
+
+    int j=0;
+    for(int i=0;i<strlen(b);i++)
+    {
+        if(s.find(b[i]) == s.end())
+        {
+            *(b+j) = b[i];
+            j++;
+        }
+    }
+    *(b+j) = '\0';
+
+    cout<<b;
+}
+
+*/

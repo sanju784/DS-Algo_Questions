@@ -9,7 +9,7 @@ void reverse(int arr[], int start, int end)
 {
     while(start<end)
     {
-        swap(arr[start], arr[end-1]);
+        swap(arr[start], arr[end]);
         start++;
         end--;
     }
@@ -17,9 +17,9 @@ void reverse(int arr[], int start, int end)
 
 void rotate(int arr[], int n, int d)
 {
-    reverse(arr, 0, d);
-    reverse(arr, d+1, n);
-    reverse(arr, 0, n);
+    reverse(arr, 0, d-1);
+    reverse(arr, d, n-1);
+    reverse(arr, 0, n-1);
 }
 
 int main()

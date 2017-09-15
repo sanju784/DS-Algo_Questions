@@ -10,15 +10,15 @@ using namespace std;
 
 char firstRepeating(string &str) {
 	unordered_set<char> h;
-	for(int i=0;i<str.length();i++)
+	char c;
+	for(int i=str.length()-1;i>=0;i--)
 	{
-		char c = str[i];
-		if(h.find(c) != h.end())
-			return c;
+		if(h.find(str[i]) != h.end())
+			c=str[i];
 		else
-			h.insert(c);
+			h.insert(str[i]);
 	}
-	return '\0';
+	return c;
 }
 
 int main() {

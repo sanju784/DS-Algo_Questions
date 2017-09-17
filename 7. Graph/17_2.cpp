@@ -78,7 +78,7 @@ Graph Graph::getTranspose()
         list<int>::iterator itr;
         for(itr = adj[v].begin();itr != adj[v].end(); itr++)
         {
-            g.adj[*i].push_back(v);
+            g.adj[*itr].push_back(v);
             (g.in[v])++;
         }
     }

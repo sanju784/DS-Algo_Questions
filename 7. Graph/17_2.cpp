@@ -39,7 +39,7 @@ Graph::Graph(int V)
 void Graph::addEdge(int u, int v)
 {
     adj[u].push_back(v);
-    (in[w])++;
+    (in[v])++;
 }
 
 //returns true if the directed graph has an eulerian cycle

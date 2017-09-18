@@ -39,9 +39,7 @@ int editDistance(char *str1, char *str2, int m, int n)
 			//when both characters are different then we take minimum of the near by value and add 1 to it
 			//this is so because in this case we perform only one operation i.e. either edit or delete
 			else
-				dp[i][j] = 1 + min(dp[i][j-1],
-									dp[i-1][j],
-									dp[i-1][j-1]);
+				dp[i][j] = 1 + min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]);
 		}
 	}
 	return dp[m][n];

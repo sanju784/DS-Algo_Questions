@@ -6,52 +6,6 @@
 
 #include <stdio.h>
 
-int findPivot(int arr[], int low, int high) {
-	if(high<low) return -1;
-	if(low==high) return low;
-
-	int mid = (low + high) / 2;
-	if(mid < high && arr[mid] > arr[mid+1])
-		return mid;
-	if(mid > low && arr[mid] < arr[mid-1])
-		return mid-1;
-	if(arr[low] >= arr[mid])
-		findPivot(arr, low, mid-1);
-	else
-		findPivot(arr, mid+1, high);
-}
-
-int binarySearch(int arr[], int low, int high, int key) {
-	if(high < low) return -1;
-	int mid=(low+high)/2;
-	if(key == arr[mid])
-		return mid;
-	if(key < arr[mid])
-		binarySearch(arr, low, mid-1, key);
-	else
-		binarySearch(arr, mid+1, high, key);
-}
-
-int search(int arr[], int n, int key) {
-	int pivot = findPivot(arr, 0, n-1);
-	if(pivot == -1)
-		binarySearch(arr, 0, n-1, key);
-	if(arr[pivot] == key)
-		return pivot;
-	if(arr[0] <= key)
-		return binarySearch(arr, 0, pivot-1, key);
-	else
-		return binarySearch(arr, pivot+1, n-1, key);
-}
-
-void main() {
-   int arr[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
-   int n = sizeof(arr)/sizeof(arr[0]);
-   int key = 3;
-   printf("%d is at %d position", key, search(arr, n , key));
-}
-
-/**
 int rotateFind(int a[], int n, int x) {
 	int start, end, mid;
 	start = 0;
@@ -60,12 +14,16 @@ int rotateFind(int a[], int n, int x) {
 		mid = (start + end)/2;
 		if(x == a[mid])
 			return mid;
+		//checking if second half of array is sorted
+		//and then checking that is key present in second half
 		if(a[mid] <= a[end]) {
 			if(x > a[mid] && x <= a[end])
 				start = mid + 1;
 			else
 				end = mid -1;
 		}
+		//if second half of array is not sorted then first half will be sorted
+		//and then checking that is key present in first half
 		else
 		{
 			if(a[start] <= x && x < a[mid])
@@ -76,4 +34,40 @@ int rotateFind(int a[], int n, int x) {
 	}
 	return -1;
 }
+
+void main() {
+   int arr[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
+   int n = sizeof(arr)/sizeof(arr[0]);
+   int key = 3;
+   printf("%d is at %d position", key, search(arr, n , key));
+}
+
+
+/**
+// In recursive way
+int search(int arr[], int start, int end, int k)
+{
+    if(start <= end)
+    {
+        int mid = (end+start)/2;
+        if(arr[mid] == int k)
+            return mid;
+        //checking if first half of array is sorted
+        if(arr[mid] > arr[start])
+        {
+            if(k < arr[mid] && k >= arr[start])
+                return search(arr, start, mid-1, k);
+            else
+                return search(arr, mid+1, end, k);
+        }
+        else
+        {
+            if(k > arr[mid] && k <= arr[end])
+                return search(arr, mid+1, end, k);
+            else
+                return search(arr, start, mid-1, k);
+        }
+    }
+}
+
 */

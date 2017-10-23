@@ -36,7 +36,7 @@ void main() {
 	int a[] = {9,4,6,5,7,3,8,2,1};
 	int n = sizeof(a)/sizeof(a[0]);
 	int k = 4, i;
-	for(i=n-1;i>=0;i--)
+	for(i=(n-1)/2;i>=0;i--)
 	    heapify(a, n, i);
 	for(i=0; i<k;i++)
 		printf("%d ", getMin(a, n-k-1));
